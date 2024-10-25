@@ -80,7 +80,7 @@ MonoBehaviour:
     m_Bits: 64
   outlineSettings:
     outlineColor: {r: 1, g: 1, b: 1, a: 1}
-    outlineScale: 1.25
+    outlineScale: 1.375
     depthThreshold: 1.5
     robertsCrossMultiplier: 100
     normalThreshold: 0.4
