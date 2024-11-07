@@ -3,9 +3,11 @@ using UnityEngine;
 public class CameraPOVChange : MonoBehaviour
 {
     public Camera playerCamera;
+    public GameObject player;
     private Vector3 FirstPersonPOV;
     private Vector3 ThirdPersonPOV;
     private Vector3 currentPOS;
+    private Vector3 playerPOS;
     private bool moveToThird = false;
     private bool moveToFirst = false;
     private float speed = 2.0f;
@@ -14,6 +16,7 @@ public class CameraPOVChange : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        playerPOS = player.transform.position;
         FirstPersonPOV = new Vector3(transform.position.x, transform.position.y, transform.position.z);
         ThirdPersonPOV = new Vector3(transform.position.x, transform.position.y + 6.0f, transform.position.z);
     }
