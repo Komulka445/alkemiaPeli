@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\root\\Documents\\alkemiaPeli\\alkemiaPeli\\AlkemiaPeli\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32DCDD30-B269-09A3-CE11-C6AE47D1029F}|Assembly-CSharp.csproj|c:\\users\\root\\documents\\alkemiapeli\\alkemiapeli\\alkemiapeli\\assets\\_resources\\_scripts\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32DCDD30-B269-09A3-CE11-C6AE47D1029F}|Assembly-CSharp.csproj|solutionrelative:assets\\_resources\\_scripts\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32DCDD30-B269-09A3-CE11-C6AE47D1029F}|Assembly-CSharp.csproj|c:\\users\\root\\documents\\alkemiapeli\\alkemiapeli\\alkemiapeli\\assets\\_resources\\_scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32DCDD30-B269-09A3-CE11-C6AE47D1029F}|Assembly-CSharp.csproj|solutionrelative:assets\\_resources\\_scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32DCDD30-B269-09A3-CE11-C6AE47D1029F}|Assembly-CSharp.csproj|C:\\Users\\root\\Documents\\alkemiaPeli\\alkemiaPeli\\AlkemiaPeli\\assets\\_resources\\_scripts\\npcmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32DCDD30-B269-09A3-CE11-C6AE47D1029F}|Assembly-CSharp.csproj|c:\\users\\root\\documents\\alkemiapeli\\alkemiapeli\\alkemiapeli\\assets\\_resources\\_scripts\\npcmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32DCDD30-B269-09A3-CE11-C6AE47D1029F}|Assembly-CSharp.csproj|solutionrelative:assets\\_resources\\_scripts\\npcmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32DCDD30-B269-09A3-CE11-C6AE47D1029F}|Assembly-CSharp.csproj|C:\\Users\\root\\Documents\\alkemiaPeli\\alkemiaPeli\\AlkemiaPeli\\assets\\_resources\\_scripts\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32DCDD30-B269-09A3-CE11-C6AE47D1029F}|Assembly-CSharp.csproj|solutionrelative:assets\\_resources\\_scripts\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{32DCDD30-B269-09A3-CE11-C6AE47D1029F}|Assembly-CSharp.csproj|C:\\Users\\root\\Documents\\alkemiaPeli\\alkemiaPeli\\AlkemiaPeli\\assets\\_resources\\_scripts\\camerapovchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,6 +35,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\root\\Documents\\alkemiaPeli\\alkemiaPeli\\AlkemiaPeli\\Assets\\_Resources\\_Scripts\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\_Resources\\_Scripts\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\root\\Documents\\alkemiaPeli\\alkemiaPeli\\AlkemiaPeli\\Assets\\_Resources\\_Scripts\\MainMenu.cs",
+              "RelativeToolTip": "Assets\\_Resources\\_Scripts\\MainMenu.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T07:28:37.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Inventory.cs",
               "DocumentMoniker": "C:\\Users\\root\\Documents\\alkemiaPeli\\alkemiaPeli\\AlkemiaPeli\\Assets\\_Resources\\_Scripts\\Inventory.cs",
               "RelativeDocumentMoniker": "Assets\\_Resources\\_Scripts\\Inventory.cs",
@@ -38,8 +55,7 @@
               "RelativeToolTip": "Assets\\_Resources\\_Scripts\\Inventory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T09:57:44.067Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T09:57:44.067Z"
             },
             {
               "$type": "Document",
@@ -49,13 +65,14 @@
               "RelativeDocumentMoniker": "Assets\\_Resources\\_Scripts\\NpcMovement.cs",
               "ToolTip": "C:\\Users\\root\\Documents\\alkemiaPeli\\alkemiaPeli\\AlkemiaPeli\\Assets\\_Resources\\_Scripts\\NpcMovement.cs",
               "RelativeToolTip": "Assets\\_Resources\\_Scripts\\NpcMovement.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADAAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwC4AAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T07:37:09.351Z"
+              "WhenOpened": "2024-10-31T07:37:09.351Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CameraPOVChange.cs",
               "DocumentMoniker": "C:\\Users\\root\\Documents\\alkemiaPeli\\alkemiaPeli\\AlkemiaPeli\\Assets\\_Resources\\_Scripts\\CameraPOVChange.cs",
               "RelativeDocumentMoniker": "Assets\\_Resources\\_Scripts\\CameraPOVChange.cs",
@@ -67,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\root\\Documents\\alkemiaPeli\\alkemiaPeli\\AlkemiaPeli\\Assets\\_Resources\\_Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\_Resources\\_Scripts\\PlayerMovement.cs",

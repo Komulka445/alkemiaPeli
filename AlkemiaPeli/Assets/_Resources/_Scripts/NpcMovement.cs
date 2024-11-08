@@ -7,13 +7,13 @@ public class NpcMovement : MonoBehaviour
     int phase = -1;
     public float waitTime = 10.0f;
     bool access = true;
-    public float rotateTime = 2.0f;
+    public float rotateTime = 4.0f;
     public Vector3 targetPosition;
     public Vector3 returnPosition;
     public Vector3 currentPosition;
     void Start()
     {
-        targetPosition = new Vector3(transform.position.x - 6, transform.position.y, transform.position.z);
+        targetPosition = new Vector3(transform.position.x - 24, transform.position.y, transform.position.z);
         returnPosition = new Vector3(transform.position.x, transform.position.y, transform.position.z);
     }
     void Update()
@@ -44,8 +44,31 @@ public class NpcMovement : MonoBehaviour
             rotateTime -= Time.deltaTime;
             if (rotateTime <= 0.0f)
             {
+                targetPosition = new Vector3(transform.position.x + 24, transform.position.y, transform.position.z);
+                phase = 2;
+            }
+        }
+        else if (phase == 2)
+        { // liikke tuolille
+                transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
+                if(currentPosition == targetPosition)
+                {
+                    phase = 3;
+                }
+            
+        }
+    }
+}
+/*
+ *         else if (phase == 1)
+        { //käännös
+            Debug.Log("ijdijdsa");
+            transform.Rotate(0, Time.deltaTime * -45, 0);
+            rotateTime -= Time.deltaTime;
+            if (rotateTime <= 0.0f)
+            {
                 targetPosition = new Vector3(transform.position.x - 12, transform.position.y, transform.position.z);
-                rotateTime = 2.0f;
+                rotateTime etc etc
                 phase = 2;
             }
         }
@@ -62,8 +85,4 @@ public class NpcMovement : MonoBehaviour
                 if(currentPosition == targetPosition)
                 {
                     phase = 3;
-                }
-            }
-        }
-    }
-}
+                }*/

@@ -426,7 +426,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   waitTime: 2
-  rotateTime: 2
+  rotateTime: 4
   targetPosition: {x: 0, y: 0, z: 0}
   returnPosition: {x: 0, y: 0, z: 0}
   currentPosition: {x: 0, y: 0, z: 0}
