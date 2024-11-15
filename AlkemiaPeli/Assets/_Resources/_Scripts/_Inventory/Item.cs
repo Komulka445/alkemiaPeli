@@ -6,12 +6,17 @@ public class Item : MonoBehaviour
 {
     public string itemName;
     public Sprite itemIcon;
-    public GameObject itemPrefab; // Reference to the 3D prefab for dropping
+    public GameObject itemPrefab;
+    
+    // Reference to the original GameObject instance
+    [NonSerialized] public GameObject originalInstance;
 
-    public Item(string name, Sprite icon, GameObject prefab)
+    // Store the item's original scale
+    [HideInInspector] public Vector3 originalScale;
+
+    private void Awake()
     {
-        itemName = name;
-        itemIcon = icon;
-        itemPrefab = prefab;
+        // Save the original scale of the item at the start
+        originalScale = transform.localScale;
     }
 }
