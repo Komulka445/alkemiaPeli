@@ -11,13 +11,13 @@ public class Inventory : MonoBehaviour
     private GameObject currentHeldItem; // Currently held item
 
     // References to the UI elements
-    [SerializeField] private List<Transform> slotBackgrounds; // Slot backgrounds (used for highlighting the selected slot)
-    [SerializeField] private List<Image> itemHolders; // ItemHolder (where the item icon will be displayed)
-    [SerializeField] private List<TMP_Text> slotTexts; // Text components to show slot number
+    [SerializeField] private List<Transform> slotBackgrounds;
+    [SerializeField] private List<Image> itemHolders;
+    [SerializeField] private List<TMP_Text> slotTexts;
 
-    private Color emptySlotColor = new Color(1, 1, 1, 0.2f); // Transparent color for empty slots
-    private int selectedSlot = 0; // Currently selected slot
-    [SerializeField] private int dropForce; // Controls the strength at which the dropped item will fly forward
+    private Color emptySlotColor = new Color(1, 1, 1, 0.2f);
+    private int selectedSlot = 0;
+    [SerializeField] private int dropForce;
 
     private void Start()
     {
@@ -54,10 +54,10 @@ public class Inventory : MonoBehaviour
             Destroy(currentHeldItem);
         }
 
-        // Check if there's an item in the selected slot
+        // Check if thers an item in the selected slot
         if (selectedSlot < items.Count && items[selectedSlot] != null)
         {
-            // Instantiate the item's prefab at the hold point
+            // Instantiate the items prefab at the item point
             currentHeldItem = Instantiate(items[selectedSlot].itemPrefab, itemPosition.position, itemPosition.rotation);
 
             // Parent it to the hold point
@@ -66,7 +66,7 @@ public class Inventory : MonoBehaviour
             // Reset local position, rotation, and scale
             currentHeldItem.transform.localPosition = Vector3.zero;
             currentHeldItem.transform.localRotation = Quaternion.identity;
-            currentHeldItem.transform.localScale = items[selectedSlot].originalScale; // Apply original scale
+            currentHeldItem.transform.localScale = items[selectedSlot].originalScale;
         }
     }
 
@@ -127,18 +127,17 @@ public class Inventory : MonoBehaviour
             itemToDrop.originalInstance.transform.position = itemPosition.position;
             itemToDrop.originalInstance.transform.rotation = Quaternion.identity;
 
-            // Add a Rigidbody and collider if missing
+            // if the item doesnt have a rigidbody, add one
             Rigidbody rb = itemToDrop.originalInstance.GetComponent<Rigidbody>();
             if (rb == null)
                 rb = itemToDrop.originalInstance.AddComponent<Rigidbody>();
 
+            // if the item doesnt have a collider, add one
             if (!itemToDrop.originalInstance.GetComponent<Collider>())
                 itemToDrop.originalInstance.AddComponent<BoxCollider>();
 
-            // Ensure the Rigidbody is non-kinematic to apply forces
             rb.isKinematic = false;
 
-            // Ensure gravity is enabled on the Rigidbody
             rb.useGravity = true;
 
             // Shoots the dropped item a little when dropped
@@ -147,10 +146,8 @@ public class Inventory : MonoBehaviour
             rb.AddForce(forwardForce, ForceMode.Impulse);
         }
 
-        // Remove the item from inventory and update the UI accordingly
         items.RemoveAt(slotIndex);
 
-        // **Update the slot UI** to clear the icon and reset the color
         UpdateHotbarUI();
     }
 }

@@ -2581,6 +2581,7 @@ MonoBehaviour:
   itemName: Potion
   itemIcon: {fileID: 21300000, guid: cfc34d542f3cbc3408ffa1d8411b2e31, type: 3}
   itemPrefab: {fileID: 1133015784}
+  originalScale: {x: 0, y: 0, z: 0}
 --- !u!64 &1133015786
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16301,6 +16302,7 @@ MonoBehaviour:
   itemName: Potion
   itemIcon: {fileID: 21300000, guid: cfc34d542f3cbc3408ffa1d8411b2e31, type: 3}
   itemPrefab: {fileID: 1743324452}
+  originalScale: {x: 0, y: 0, z: 0}
 --- !u!64 &1743324454
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16451,6 +16453,7 @@ MonoBehaviour:
   itemName: Potion
   itemIcon: {fileID: 21300000, guid: cfc34d542f3cbc3408ffa1d8411b2e31, type: 3}
   itemPrefab: {fileID: 1753027919}
+  originalScale: {x: 0, y: 0, z: 0}
 --- !u!64 &1753027921
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17687,6 +17690,7 @@ MonoBehaviour:
   itemName: Potion
   itemIcon: {fileID: 21300000, guid: cfc34d542f3cbc3408ffa1d8411b2e31, type: 3}
   itemPrefab: {fileID: 1240219629}
+  originalScale: {x: 0, y: 0, z: 0}
 --- !u!33 &814959419708491954
 MeshFilter:
   m_ObjectHideFlags: 0
