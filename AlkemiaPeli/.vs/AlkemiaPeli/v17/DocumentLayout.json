@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\root\\Documents\\alkemiaPeli\\alkemiaPeli\\AlkemiaPeli\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{32DCDD30-B269-09A3-CE11-C6AE47D1029F}|Assembly-CSharp.csproj|c:\\users\\root\\documents\\alkemiapeli\\alkemiapeli\\alkemiapeli\\assets\\_resources\\_scripts\\cooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32DCDD30-B269-09A3-CE11-C6AE47D1029F}|Assembly-CSharp.csproj|solutionrelative:assets\\_resources\\_scripts\\cooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{32DCDD30-B269-09A3-CE11-C6AE47D1029F}|Assembly-CSharp.csproj|c:\\users\\root\\documents\\alkemiapeli\\alkemiapeli\\alkemiapeli\\assets\\_resources\\_scripts\\npcmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32DCDD30-B269-09A3-CE11-C6AE47D1029F}|Assembly-CSharp.csproj|solutionrelative:assets\\_resources\\_scripts\\npcmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -27,14 +31,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NpcMovement.cs",
-              "DocumentMoniker": "C:\\Users\\root\\Documents\\alkemiaPeli\\alkemiaPeli\\AlkemiaPeli\\Assets\\_Resources\\_Scripts\\NpcMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\_Resources\\_Scripts\\NpcMovement.cs",
-              "ToolTip": "C:\\Users\\root\\Documents\\alkemiaPeli\\alkemiaPeli\\AlkemiaPeli\\Assets\\_Resources\\_Scripts\\NpcMovement.cs",
-              "RelativeToolTip": "Assets\\_Resources\\_Scripts\\NpcMovement.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBQAAAARAAAAAAAAAA==",
+              "Title": "Cooking.cs",
+              "DocumentMoniker": "C:\\Users\\root\\Documents\\alkemiaPeli\\alkemiaPeli\\AlkemiaPeli\\Assets\\_Resources\\_Scripts\\Cooking.cs",
+              "RelativeDocumentMoniker": "Assets\\_Resources\\_Scripts\\Cooking.cs",
+              "ToolTip": "C:\\Users\\root\\Documents\\alkemiaPeli\\alkemiaPeli\\AlkemiaPeli\\Assets\\_Resources\\_Scripts\\Cooking.cs",
+              "RelativeToolTip": "Assets\\_Resources\\_Scripts\\Cooking.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T08:31:04.582Z",
+              "WhenOpened": "2024-12-10T08:10:06.484Z",
               "EditorCaption": ""
             },
             {
@@ -44,6 +48,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NpcMovement.cs",
+              "DocumentMoniker": "C:\\Users\\root\\Documents\\alkemiaPeli\\alkemiaPeli\\AlkemiaPeli\\Assets\\_Resources\\_Scripts\\NpcMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\_Resources\\_Scripts\\NpcMovement.cs",
+              "ToolTip": "C:\\Users\\root\\Documents\\alkemiaPeli\\alkemiaPeli\\AlkemiaPeli\\Assets\\_Resources\\_Scripts\\NpcMovement.cs",
+              "RelativeToolTip": "Assets\\_Resources\\_Scripts\\NpcMovement.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T08:31:04.582Z",
+              "EditorCaption": ""
             }
           ]
         }
