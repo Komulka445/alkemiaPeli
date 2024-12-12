@@ -16471,7 +16471,7 @@ MonoBehaviour:
   orderUIPrefab: {fileID: 4268777795469712932, guid: 653f1c71f6407814395f21ab92deab3f,
     type: 3}
   orderDisplayPoint: {fileID: 1880861430}
-  customerSound: {fileID: 0}
+  customerSound: {fileID: 8300000, guid: c90968f28d460bb40be4b08d6aa8afd8, type: 3}
   displayDuration: 5
 --- !u!65 &1357388825
 BoxCollider:
@@ -16492,8 +16492,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.4536858, y: 1.0738962, z: 1.145025}
+  m_Center: {x: 0.040578842, y: 0.036948085, z: -0.07251251}
 --- !u!4 &1357388826
 Transform:
   m_ObjectHideFlags: 0
@@ -16687,9 +16687,10 @@ GameObject:
   - component: {fileID: 1602100272}
   - component: {fileID: 1602100271}
   - component: {fileID: 1602100270}
+  - component: {fileID: 1602100275}
   m_Layer: 0
   m_Name: Customer
-  m_TagString: Untagged
+  m_TagString: Customer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16803,6 +16804,33 @@ Transform:
   - {fileID: 1880861430}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &1602100275
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1602100269}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1610673759 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f81211c7659eb421c9966b26606fbd00,
@@ -17503,7 +17531,7 @@ Transform:
   m_GameObject: {fileID: 1880861429}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.43, z: 0}
+  m_LocalPosition: {x: 1.53, y: 1.68, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
