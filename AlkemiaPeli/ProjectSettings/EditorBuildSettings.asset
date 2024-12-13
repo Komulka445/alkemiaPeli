@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LeonScene.unity
     guid: e537a23e2f0a21443810812aab1895a3
+  - enabled: 1
+    path: Assets/Scenes/MasalMenu.unity
+    guid: 78bb854615b4d7e41b7783b9c557e857
+  - enabled: 1
+    path: Assets/Scenes/MasalOriginalScene.unity
+    guid: ade520d9a18dfed468352c48434b6c88
   m_configObjects: {}
