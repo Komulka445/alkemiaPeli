@@ -595,6 +595,11 @@ PrefabInstance:
       objectReference: {fileID: 1759303902}
     - target: {fileID: 9181996729995158203, guid: eb5db485ae0f8f242a7040238afb8e5f,
         type: 3}
+      propertyPath: itemPosition
+      value: 
+      objectReference: {fileID: 1759303902}
+    - target: {fileID: 9181996729995158203, guid: eb5db485ae0f8f242a7040238afb8e5f,
+        type: 3}
       propertyPath: slotImages.Array.data[0]
       value: 
       objectReference: {fileID: 1363496661}

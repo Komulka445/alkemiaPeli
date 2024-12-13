@@ -11,6 +11,9 @@ public class Cooking : MonoBehaviour
     public GameObject player;
     public GameObject collidingItem;
     public GameObject inventoryCanvas;
+
+    public TMP_Text ggtext;
+    public GameObject panel;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,19 +21,31 @@ public class Cooking : MonoBehaviour
     }
 
     void OnCollisionEnter(Collision collision)
+{
+    if (collision.gameObject.tag == "Ingredient" || collision.gameObject.tag == "Item")
     {
-        if (collision.gameObject.tag == "Ingredient" || collision.gameObject.tag == "Item")
+        if (cauldronText.text == "Empty!")
         {
-            if(cauldronText.text == "Empty!")
-            {
-                cauldronText.text = "";
-            }
-            collidingItem = collision.gameObject;
-            cauldronText.text += collidingItem.name + "\n";
-            //Debug.Log(collidingItem.name+" "+cauldronText.text);
-            Destroy(collidingItem);
+            cauldronText.text = "";
+        }
+
+        collidingItem = collision.gameObject;
+        cauldronText.text += collidingItem.name + "\n";
+        Destroy(collidingItem);
+
+        int lineCount = cauldronText.text.Split('\n').Length - 1;
+
+        if (lineCount >= 2)
+        {
+            panel.SetActive(true);
+        }
+        else
+        {
+            panel.SetActive(false);
         }
     }
+}
+
 
     // Update is called once per frame
     void Update()
