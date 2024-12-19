@@ -9,7 +9,7 @@ public class Item : MonoBehaviour
     public GameObject itemPrefab;
     
     // Reference to the original GameObject instance
-    [NonSerialized] public GameObject originalInstance;
+    public GameObject originalInstance;
 
     // Store the item's original scale
     [HideInInspector] public Vector3 originalScale;

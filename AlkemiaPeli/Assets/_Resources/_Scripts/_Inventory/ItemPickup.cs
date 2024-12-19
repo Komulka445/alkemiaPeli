@@ -10,7 +10,6 @@ public class ItemPickup : MonoBehaviour
 
     void Update()
     {
-        // Check for the pickup input, e.g., left mouse button
         if (Input.GetKeyDown(KeyCode.E))
         {
             AttemptPickup();
@@ -19,11 +18,9 @@ public class ItemPickup : MonoBehaviour
 
     void AttemptPickup()
     {
-        // Create a ray from the center of the screen
         Ray ray = playerCamera.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2));
         RaycastHit hit;
 
-        // Check if the ray hits any object
         if (Physics.Raycast(ray, out hit, pickupDistance))
         {
             // Check if the object has the "Item" tag
